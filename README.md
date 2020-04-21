@@ -11,7 +11,7 @@ The Arduino Plotter accepts named values in the following format
 
 The key and value are separated by a ':', and multiple key/value pairs
 are separated by white space.  If you separate the key and value
-with '=', it conveniently displays the key and value on the top line
+with '/', it conveniently displays the key and value on the top line
 with the other keys.
 
 Usage
@@ -22,7 +22,7 @@ Usage
   a variable name.
 - **MONITOR\_ENDL()** will end monitor output.
 - **DISPLAY(v)** and **DISPLAY2(k, v)** are similar to MONITOR and MONITOR2,
-  except they use '=' as a separator, giving a non-plotted display of
+  except they use '/' as a separator, giving a non-plotted display of
   the key and value.
 
 Defining the macro **NO\_MONITOR\_OUTPUT** removes all monitoring data from
@@ -62,3 +62,6 @@ Notes
 
 Sometimes a variable will appear twice at the top of the Arduino
 Serial Plotter window.  This seems to be a bug in the Plotter.
+
+The DISPLAY logic in the Serial Plotter is not documented.  I'm submitting
+a PR to document this and make it a standardized part of the interface.
