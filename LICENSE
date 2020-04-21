@@ -1,6 +1,10 @@
 MIT License
 
-Copyright (c) 2020 Mark Harrison
+This software is part of the Arrbot project (https://github.com/marhar/arrbot).
+It is available separately from https://github.com/marhar/ArrbotMonitor.
+
+Copyright (c) 2014-2016 Mark Harrison
+Copyright (c) 2019-2020 Google LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

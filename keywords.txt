@@ -1,0 +1,19 @@
+#######################################
+# Syntax Coloring Map For ArrbotMonitor
+#######################################
+
+#######################################
+# ifdef macro (KEYWORD1)
+#######################################
+
+NO_MONITOR_OUTPUT               LITERAL1
+
+#######################################
+# Function-like macros. (KEYWORD2)
+#######################################
+
+DISPLAY                         KEYWORD1
+DISPLAY2                        KEYWORD1
+MONITOR                         KEYWORD1
+MONITOR2                        KEYWORD1
+MONITOR_ENDL                    KEYWORD1
