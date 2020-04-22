@@ -29,8 +29,8 @@ Usage
 Defining the macro **NO\_MONITOR\_OUTPUT** removes all monitoring data from
 the compiled code.
 
-Example
-=======
+Examples
+========
 
     #include "ArrbotMonitor.h"
     #include <math.h>
@@ -57,6 +57,10 @@ Example
 
 ![plotter screenshot](extras/plotter-screenshot.png)
 ![monitor screenshot](extras/monitor-screenshot.png)
+
+Here's a real-life example of a PID loop tuning session.
+
+![pid loop example](extras/pidloop-example.png)
 
 Notes
 =====
