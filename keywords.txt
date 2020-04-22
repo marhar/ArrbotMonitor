@@ -17,3 +17,4 @@ DISPLAY2                        KEYWORD1
 MONITOR                         KEYWORD1
 MONITOR2                        KEYWORD1
 MONITOR_ENDL                    KEYWORD1
+MONITOR_RESET                   KEYWORD1

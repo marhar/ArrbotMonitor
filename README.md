@@ -21,6 +21,7 @@ Usage
 - **MONITOR2(k, v)** allows the key to be specified.  It's useful if v isn't
   a variable name.
 - **MONITOR\_ENDL()** will end monitor output.
+- **MONITOR\_RESET()** will clear and reinitialize the plotter display.
 - **DISPLAY(v)** and **DISPLAY2(k, v)** are similar to MONITOR and MONITOR2,
   except they use '/' as a separator, giving a non-plotted display of
   the key and value.
@@ -65,3 +66,5 @@ Serial Plotter window.  This seems to be a bug in the Plotter.
 
 The DISPLAY logic in the Serial Plotter is not documented.  I'm submitting
 a PR to document this and make it a standardized part of the interface.
+
+MONITOR\_RESET() is reserved for future use.
