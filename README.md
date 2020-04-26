@@ -72,3 +72,5 @@ The DISPLAY logic in the Serial Plotter is not documented.  I'm submitting
 a PR to document this and make it a standardized part of the interface.
 
 MONITOR\_RESET() is reserved for future use.
+
+Thanks to coworker [Jonah Dahlquist](https://github.com/jonahbron) for encouraging me to write this up.
